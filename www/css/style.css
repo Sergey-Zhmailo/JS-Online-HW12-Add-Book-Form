@@ -1,0 +1,33 @@
+body {
+    background-color: #6495ed;
+}
+.book-list {
+    background-color: #ffffff;
+}
+/* label color */
+.input-field label {
+    color: #27509b;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #27509b !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #27509b !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+/* valid color */
+.input-field input[type=text] {
+    border-bottom: 1px solid #27509b;
+    box-shadow: 0 1px 0 0 #27509b;
+}
+.waves-effect.waves-primary {
+    background-color: #27509b;
+}
+.card {
+    background-color: #f2f2f2;
+}
+.card-content {
+    color: #27509b;
+}
